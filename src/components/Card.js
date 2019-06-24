@@ -3,8 +3,10 @@ import {View} from 'react-native';
 
 const Card = (props) => {
 
+//u have to put props.children
 	return(
 		<View style={styles.containerStyle}>
+
 			{props.children}
 		</View>
 		);
